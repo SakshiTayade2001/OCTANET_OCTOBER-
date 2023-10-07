@@ -1,0 +1,125 @@
+*{
+            margin: 0px;
+            padding: 0px;
+        }
+        .slider{
+            overflow: hidden;
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+        }
+        .slider figure div{
+            float: left;
+            width: 20%;
+        }
+        .slider figure img{
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            float: left;
+        }
+        .slider figure{
+            position: absolute;
+            width: 500%;
+            margin: 0;
+            animation: animate 20s infinite;
+        }
+        .tum{
+            position: absolute;
+            color: #fff;
+            font-size: 70x;
+            text-align: center;
+            padding-top: 250px;
+            background: rgba(0,0,0,0.1);
+            width: 100%;
+            height: 100vh;
+        }
+        @keyframes animate{
+            0%{left: 0%;}
+            10%{left: 0%;}
+            12%{left: -100%;}
+            22%{left: -100%;}
+            24%{left: -200%;}
+            34%{left: -200%;}
+            36%{left: -300%;}
+            46%{left: -300%;}
+            48%{left: -400%;}
+            58%{left: -400%;}
+            60%{left: -300%;}
+            70%{left: -300%;}
+            72%{left: -200%;}
+            82%{left: -200%;}
+            84%{left: -100%;}
+            94%{left: -100%;}
+            96%{left: 0%;}
+        }
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color:#ededed;
+    text-align: right;
+}
+
+
+.header{
+    background-color:black;
+    color:white;
+    border-color: #080808;
+    min-height: 50px;
+    border: 1px solid transparent;
+}
+
+.inner-header{
+    width:80%;
+    margin:auto;
+}
+.footer{
+   background-color: #000;
+   height:50px;
+   color:#fff;
+   font-size:14px;
+   text-align: center;
+}
+nav{
+    list-style-type:none;/*removes the bulletrs from the list*/
+    margin:0;
+    padding:0;
+}
+
+li,a{
+    display:block;
+    color:#666;
+    padding:14px 16px;
+    text-decoration:none;/*removees the underline*/
+    float:right;
+}
+.logo{
+    float:left;
+    height:50px;
+    width:50px;
+}
+
+#header{
+    padding:5px 0px;
+    border-bottom:1px solid;
+}
+.banner_content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    overflow:hidden;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+    border-radius: 10px;
+}
+#sak{
+
+    text-decoration: none;
+    background-color: transparent;
+    color:#ededed;
+    text-align: right;
+
+}

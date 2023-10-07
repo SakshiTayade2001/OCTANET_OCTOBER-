@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href="car.css">
+<!---- The page has a title Lifestyle Store-->
+<link rel="stylesheet" type="text/css" href="accomodation.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+
+
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+     
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="refundstyle.css">
+  <link rel="stylesheet" type="text/css" href="signinstyle.css">
+
+  <!-- Icon-->
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <script>
+    
+    $(window, document, undefined).ready(function() {
+
+  $('.input').blur(function() {
+    var $this = $(this);
+    if ($this.val())
+      $this.addClass('used');
+    else
+      $this.removeClass('used');
+  });
+  
+  });
+
+
+$('#tab1').on('click' , function(){
+    $('#tab1').addClass('login-shadow');
+   $('#tab2').removeClass('signup-shadow');
+});
+
+$('#tab2').on('click' , function(){
+    $('#tab2').addClass('signup-shadow');
+   $('#tab1').removeClass('login-shadow');
+
+
+});
+</script>
+
+  <style>
+    
+    #navi{
+        color: black;
+        font-weight: bold;
+        font-family: arial;
+    }
+    #navi:hover{
+        color: #691531;
+    }
+
+    #imgnav{
+        width:130px;
+        height:80px;
+        border-radius: 10px;
+        padding-top: 10px;
+
+    }
+    #list{
+         font-weight: bold;
+         color: #1e164f;
+         align-content: center;
+    }
+    
+  </style>
+
+<title>Cap Rental</title>
+
+<!---- External css file index.css placed in the folder css is linked-->
+
+</head>
+
+<!--header-->
+
+<body>
+
+   <div class="row" id="demo" style="padding-top: 20px">
+        <div class="col-md-2">
+            <h3>CAR RENTAL</h3>
+        </div>
+        <div class="col-md-6">
+            <ul class="nav nav-tabs justified" id="nav"> 
+                <li class="nav-item"> <a href="#"  class="nav-link" id="navi"><i class="fa fa-calendar"></i>Home</a>
+               <li class="nav-item"> <a href="#"  class="nav-link" id="navi"><i class="fa fa-calendar"></i>About</a>
+                
+                <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" class="nav-link" id="navi" style="width: 280px;text-align: center;" ><i class="fa fa-child"></i>Services</a>
+                    <div class="dropdown-menu">
+                <a href="#" class="dropdown-item" id="list">SELF DRIVE CAR RENTAL </a><br>
+                <a href="#" class="dropdown-item" id="list">EMPLOYEE TRANSPORTATION</a><br>
+                <a href="#" class="dropdown-item" id="list">CORPORATE CAR RENTAL</a><br>
+                <a href="#" class="dropdown-item" id="list">CONFERENCE DELEFGATION</a><br>
+                <a href="#" class="dropdown-item" id="list">HOTEL TRAVEL DESK</a>
+            </div>
+            <li class="nav-item"> <a href="#"  class="nav-link" id="navi"><i class="fa fa-calendar"></i>Coaches</a>
+                </li>
+                
+            <!--<li class="nav-item"> <a href="#"  class="nav-link" id="navi"><i class="fa fa-calendar"></i> Services</a>--> 
+            </ul>
+        </div> 
+
+                <div class="col-md-4">
+                <ul class="nav nav-tabs justified" id="nav"> 
+                <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" class="nav-link" id="navi"><i class="fa fa-user-circle-o" ></i>Tour & Travel</a>
+                <div class="dropdown-menu">
+                    <a href="#signup" class="dropdown-item" data-toggle="modal" data-target=".log-sign"><i class ="fa fa-plane" style="color: black">&nbsp; &nbsp; &nbsp; <font color="#1e164f" size="4px">All</font></i></a>
+                <a href="bookflight.html" class="dropdown-item"> <i  style="color: black">&nbsp; &nbsp; &nbsp; <font color="#1e164f" size="4px">Delhi</font></i></a>
+                <a href="" class="dropdown-item" data-toggle="modal" data-target="#darkModalForm"> <i style="color: black">&nbsp; &nbsp; &nbsp; <font color="#1e164f" size="4px">Mumbai</font></i></a>
+               </div> </li>
+       
+                <li class="nav-item"> <a href="#"  class="nav-link" id="navi" > Contact</a> </li>
+                      
+              </ul>
+          </div>
+          </div>
+     
+
+<!--main content-->
+
+    <div class="slider">
+    <figure>
+        <div class="slide">
+        <div class="tum">
+        <h4> FOR RENTAL CARS</h4>
+        <h6>BEST DEALS</h6>
+        <P><font size ="4px">Sales Up to 45% Off<br>
+        All Rental Cars Start from 49$</font></P>
+        <button class="btn btn-danger">SEE ALL VEHICALS</button></div>
+            <img src="1.jpg" alt="" >
+
+        </div>
+        <div class="slide">
+            <div class="tum">
+        <h4> FOR RENTAL CARS</h4>
+        <h6>BEST DEALS</h6>
+        <P><font size ="4px">Sales Up to 45% Off<br>
+        All Rental Cars Start from 49$</font></P>
+        <button class="btn btn-danger">SEE ALL VEHICALS</button></div>
+            <img src="02.jpg" alt="" >
+        </div>
+        <div class="slide">
+            <div class="tum">
+        <h4> FOR RENTAL CARS</h4>
+        <h6>BEST DEALS</h6>
+        <P><font size ="4px">Sales Up to 45% Off<br>
+        All Rental Cars Start from 49$</font></P>
+        <button class="btn btn-danger">SEE ALL VEHICALS</button></div>
+        
+            <img src="3.jpg" alt="" >
+        </div>
+        <div class="slide">
+            <div class="tum">
+        <h4> FOR RENTAL CARS</h4>
+        <h6>BEST DEALS</h6>
+        <P><font size ="4px">Sales Up to 45% Off<br>
+        All Rental Cars Start from 49$</font></P>
+        <button class="btn btn-danger">SEE ALL VEHICALS</button></div>
+        
+            <img src="05.jpg" alt="" >
+        </div>
+        <div class="slide">
+            <div class="tum">
+        <h4> FOR RENTAL CARS</h4>
+        <h6>BEST DEALS</h6>
+        <P><font size ="4px">Sales Up to 45% Off<br>
+        All Rental Cars Start from 49$</font></P>
+        <button class="btn btn-danger">SEE ALL VEHICALS</button></div>
+        
+            <img src="04.jpg" alt="" >
+        </div>
+
+    </figure>
+</div>
+<br><br>
+<div class="container"><img src="car1.jpg" width="100%" height="500px"></div>
+<br><br><br><br>
+
+<!-- form-->
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+<video width="500" height="500" controls>
+    <source src="v.mp4" type="video/mp4">
+</video></div>
+<div class="col-md-6">
+    <form method="post">
+            <div class="form-group">
+                Fullname-<input type="text" name="fullname" placeholder="Enter Fullname" class="form-control">
+            </div>
+            <div class="form-group">
+                Mobile No. -<input type="tel" name="mobile" placeholder="Enter mobile" class="form-control">
+            </div>
+            <div class="form-group">
+               <font color="white"> Address -</font><textarea class="form-control" name="add"></textarea>
+            </div>
+            <div class="form-group">
+               <font color="white">Email I'D - </font><input type="email" name="email" placeholder="Enter Email I'D" class="form-control">
+            </div>
+            <div class="form-group">
+              <font color="white">Password -</font><input type="password" name="password" placeholder="Enter password" class="form-control">
+            </div>
+            <div class="form-group">
+              <font color="white">Cars Available-</font> 
+              <select class="form-control">
+                  <option> Toyota Innova Crysta</option>
+                  <option>  Maruti Suzuki Wagon R</option>
+                  <option> Honda Amaze</option>
+                  <option>  Hyundai Xcent</option>
+                  <option>  Maruti Alto 800</option>
+                  <option>  Maruti Suzuki Swift</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <input type="submit" name="register_submit" value="Book Your Cab" class="btn btn-danger form-control">
+            </div>
+           </form>
+</div>
+</div>
+</div>
+<br><br><br><br>
+        <footer class="footer">
+           <font size="4"> Copyright&copy; SAFAR. All Rights Reserved | Contact Us: +91 90000 00000</font>
+        </footer>
+
+
+
+</body>
+</html>
